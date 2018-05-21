@@ -8,27 +8,29 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">Hello React</h1>
+            <h1 className="App-title">Hello React,我是周杨</h1>
         </header>
         <p className="App-intro">
             以下是组件1的显示内容
         </p>
-        <div id="MyApp"></div>
+        <div id="firstComponent"></div>
       </div>
     );
   }
 }
-/**使用 JSX*/
+
 var myStyle = {
     fontSize: 100,
     color: '#FF0000'
 };
-
-ReactDOM.render(
+const element = (
     <div>
-        <h1 style={myStyle}>Hello, world!</h1>
+        <h1 style={myStyle}>Hello, 这里是组件1的显示内容!</h1>
         <h2>现在时间： {new Date().toLocaleTimeString()}.</h2>
-    </div>,
+    </div>
+);
+ReactDOM.render(
+    element,
     document.getElementById('first')
 );
 
