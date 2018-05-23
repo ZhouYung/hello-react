@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
 
 var myStyle = {
@@ -11,7 +10,7 @@ var myStyle2 = {
     lineHeight: 3,
 };
 /**使用 ES6 class 来定义一个组件:*/
-class Event extends Component {
+class HandlingEvents extends Component {
     constructor(props){
         super(props);/**传递 props 到基础构造函数*/
         this.state = {
@@ -76,5 +75,5 @@ class Event extends Component {
 }
 
 //导出当前定义的类组件
-export default Event;
+export default HandlingEvents;
 

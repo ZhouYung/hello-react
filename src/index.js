@@ -2,13 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Event from './Event';
+import HandlingEvents from './HandlingEvents';
+import ConditionalRendering from './ConditionalRendering';
 import registerServiceWorker from './registerServiceWorker';
-
+;
 ReactDOM.render(
     <div>
         <App />
-        <Event />
+        <HandlingEvents />
+        <ConditionalRendering/>
+
     </div>,
     document.getElementById('root')
 );
