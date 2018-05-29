@@ -6,6 +6,7 @@ import HandlingEvents from './HandlingEvents';
 import ConditionalRendering from './ConditionalRendering';
 import registerServiceWorker from './registerServiceWorker';
 import ListAndKeys from "./ListAndKeys";
+import MyForm from "./MyForm";
 
 ReactDOM.render(
     <div>
@@ -13,7 +14,7 @@ ReactDOM.render(
         <HandlingEvents />
         <ConditionalRendering/>
         <ListAndKeys/>
-
+        <MyForm/>
     </div>,
     document.getElementById('root')
 );
