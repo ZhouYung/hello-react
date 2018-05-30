@@ -45,8 +45,8 @@ class MyForm extends Component {
      * 通过name改变
      */
     handleInputChange = e => {
-        e.stopPropagation();//阻止时间冒泡
-        e.preventDefault();//阻止默认行为
+        // e.stopPropagation();//阻止时间冒泡
+        // e.preventDefault();//阻止默认行为
 
         /**checkbox比较特殊*/
         const name = e.target.name;

@@ -7,6 +7,7 @@ import ConditionalRendering from './ConditionalRendering';
 import registerServiceWorker from './registerServiceWorker';
 import ListAndKeys from "./ListAndKeys";
 import MyForm from "./MyForm";
+import StateUp from "./StateUp";
 
 ReactDOM.render(
     <div>
@@ -15,6 +16,7 @@ ReactDOM.render(
         <ConditionalRendering/>
         <ListAndKeys/>
         <MyForm/>
+        <StateUp/>
     </div>,
     document.getElementById('root')
 );
