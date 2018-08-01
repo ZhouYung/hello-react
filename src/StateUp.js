@@ -23,8 +23,6 @@ class StateUp extends Component {
         let temperature = this.state.temperature;
         let celsius = scale === "f"?tryConvert(temperature,toCelsius):temperature;
         let fahrenheit = scale === "c"?tryConvert(temperature,toFahrenheit):temperature;
-        console.log(celsius);
-        console.log(fahrenheit);
         return (
             <div className="App">
                 <p className="App-intro">

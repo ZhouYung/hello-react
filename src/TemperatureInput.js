@@ -10,12 +10,6 @@ const showName = {
 }
 /**使用 ES6 class 来定义一个组件:*/
 class TemperatureInput extends Component {
-    constructor(props){
-        super(props);/**传递 props 到基础构造函数*/
-        this.state = {
-            temperature: ""
-        }
-    }
     handleChange = e =>{
         e.stopPropagation();
         e.preventDefault();

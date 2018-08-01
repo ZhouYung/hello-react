@@ -22,6 +22,32 @@
   font-size: large;
 }
 
+
+
+.FancyBorderBlue{
+  color: blue
+}
+.FancyBorder{
+  padding: 10px 10px;
+  border: 10px solid red;
+  margin: 1px
+}
+.Contacts {
+  height: 200px;
+  background: lightblue;
+}
+.Chat {
+  height: 200px;
+  background: pink;
+}
+.SplitPane-left{
+  width: 50%;
+  float: left;
+}
+.SplitPane-right{
+  width: 50%;
+  float: left;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

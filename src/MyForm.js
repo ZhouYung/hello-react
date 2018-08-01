@@ -53,7 +53,6 @@ class MyForm extends Component {
         let isLikeMe = this.state.isLikeMe;
         isLikeMe[e.target.id] = e.target.checked;
         this.setState({[name]:isLikeMe});
-
     }
     render() {
         return (

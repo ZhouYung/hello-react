@@ -8,6 +8,8 @@ import registerServiceWorker from './registerServiceWorker';
 import ListAndKeys from "./ListAndKeys";
 import MyForm from "./MyForm";
 import StateUp from "./StateUp";
+import {Containment,Contacts} from "./Containment";
+
 
 ReactDOM.render(
     <div>
@@ -17,6 +19,8 @@ ReactDOM.render(
         <ListAndKeys/>
         <MyForm/>
         <StateUp/>
+        <Containment/>
+        <Contacts/>
     </div>,
     document.getElementById('root')
 );
